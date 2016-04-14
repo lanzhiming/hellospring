@@ -1,0 +1,76 @@
+/*
+ * 这是关于弹出窗口相关的css样式
+ * @yangshw6
+ */
+
+/*弹框本身(大)*/ 
+.boxBodyBig{
+	width:496px;
+	height: 418px;
+}
+/*弹框本身(小)*/ 
+.boxBodySmall{
+	width:412px;
+	height: 418px;
+}
+/*弹框头*/
+.boxHeader{
+	background-color: #f6f6f6;
+	border-bottom: #e5e5e5 1px;
+	height: 48px;
+} 
+/*弹框标题*/ 
+.boxTitle{
+	background-color: #f6f6f6;
+	color:#333333;
+	font-family:"SimHei";
+	font-size: 16px;
+}
+/*弹框头部分右侧关闭按钮*/
+.boxClose{
+	
+}
+.boxClose:hover{
+	color: #ff7800;
+}
+/*弹框按钮的父级元素块*/
+.boxFooter{
+	margin: auto;
+	text-align: center;
+	padding:24px 15px 24px 15px;
+	margin:0px 15px 0px 15px;
+}
+/*弹框按钮*/
+.boxButton{
+	font-family:"SimHei";
+	background-color:#ff7800;
+	width: 126px;
+	height: 36px;
+	color:white;
+	text-align:center;
+}
+
+/*已下为选用*/
+/*弹框主题label框*/
+.boxLabel{
+	width:80px;
+	font-size: 14px; 
+	font-family:'SimHei';
+	color: #999999;
+	
+}
+/*文本框*/
+.boxInput{
+	width:176px;
+	font-size: 14px;
+	color: #333333;
+}
+/*纯文本*/
+.boxText{
+	color:#ff7800;
+	font-family:'SimHei';
+	font-size: 12px;
+}
+.boxTextarea{
+	font-size: 12px;
+}
